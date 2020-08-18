@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "commonjs",
+    "target": "ESNext",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "outDir": "dist",
+    "sourceRoot": "src",
+    "rootDir": "src",
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "dist"
+  ],
+  "references": [
+    {
+      "path": "./node_modules/@saggitarius/typing"
+    },
+    {
+      "path": "./node_modules/@saggitarius/di"
+    },
+    {
+      "path": "./node_modules/@saggitarius/di-metadata"
+    },
+    {
+      "path": "./node_modules/@saggitarius/filesystem"
+    },
+    {
+      "path": "./node_modules/@saggitarius/metadata"
+    },
+    {
+      "path": "./node_modules/@saggitarius/metadata-parser"
+    },
+    {
+      "path": "./node_modules/@saggitarius/module-loader"
+    },
+    {
+      "path": "./node_modules/@saggitarius/package"
+    },
+    {
+      "path": "./node_modules/@saggitarius/env"
+    },
+    {
+      "path": "./node_modules/@saggitarius/path"
+    }
+  ]
+}

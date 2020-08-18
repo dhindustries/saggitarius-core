@@ -1,0 +1,22 @@
+{
+  "name": "@saggitarius/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@saggitarius/typing": "git://github.com/dhindustries/saggitarius-typing.git",
+    "@saggitarius/di": "git://github.com/dhindustries/saggitarius-di.git",
+    "@saggitarius/di-metadata": "git://github.com/dhindustries/saggitarius-di-metadata.git",
+    "@saggitarius/filesystem": "git://github.com/dhindustries/saggitarius-filesystem.git",
+    "@saggitarius/metadata": "git://github.com/dhindustries/saggitarius-metadata.git",
+    "@saggitarius/metadata-parser": "git://github.com/dhindustries/saggitarius-metadata-parser.git",
+    "@saggitarius/module-loader": "git://github.com/dhindustries/saggitarius-module-loader.git",
+    "@saggitarius/package": "git://github.com/dhindustries/saggitarius-package.git",
+    "@saggitarius/env": "git://github.com/dhindustries/saggitarius-env.git",
+    "@saggitarius/path": "git://github.com/dhindustries/saggitarius-path.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "typescript": "^3.9.6"
+  }
+}
